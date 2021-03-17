@@ -18,6 +18,7 @@ export default class Admin extends Component<any, AdminState> {
 
     private unsubscribeStore: Unsubscribe;
 
+    
     constructor(props: any) {
         super(props);
         this.state = { vacations: [] };
