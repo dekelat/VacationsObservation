@@ -1,0 +1,10 @@
+.manage-vacation > * .btn {
+	display: inline-block;
+	width: 45%;
+	height: 40px;
+	margin: 0 .5rem;
+}
+
+.cancel-btn {
+	background-image: linear-gradient(to right, #c04141, #da3d3d, #c04141);
+}

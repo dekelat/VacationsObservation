@@ -1,0 +1,164 @@
+.vacation-card {
+    vertical-align: top;
+    display: inline-block;
+    background: white;
+    margin: 15px;
+    width: 16rem;
+    height: 22.5rem;
+    box-shadow: 5px 5px 5px #9f9ea0;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    text-align: left;
+}
+
+/* top section of the card */ 
+.top-card-section {
+    position: relative;
+}
+
+.delete-button {
+    position: absolute;
+    transform: translateY(20%);
+    outline: none;
+    border: none;
+    background: none;
+    right: .2rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.fa-times {
+    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1.3px white;
+}
+
+.followers-label {
+    position: absolute;
+    transform: translateY(-250%);
+    background-color: white;
+    font-size: .9rem;
+    padding-right: .5rem;
+    padding-left: .4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.cover {
+    overflow: auto;
+}
+
+.cover img {
+    width: 16rem;
+    height: 12rem;
+    border-top-left-radius: 1rem;
+}
+
+/* bottom section of the card */ 
+.bottom-card-section {
+    position: relative;
+}
+
+.bottom-card-section h2 {
+    padding-left: .6rem;
+    margin-top: auto;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+.bottom-card-section h4 {
+    margin-top: auto;
+    margin-bottom: 0;
+    padding-left: .6rem;
+    font-family: 'Abel';
+    font-size: .9rem;
+}
+
+.description {
+    height: 4.5rem;
+    overflow: auto;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: pre-line;
+    margin-top: .2rem;
+    padding-left: .6rem;
+    margin-right: .5rem;
+}
+
+.description:hover {
+    overflow-y: scroll;
+}
+
+.description p{
+    font-family: 'Abel';
+    margin: 0;
+    font-size: .9rem;
+    white-space: pre-line;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+  
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.price {
+    position: absolute;
+    right: .7rem;
+    transform: translateY(-20%);
+}
+
+.circle {
+    position: absolute;
+    right: .5rem;
+    transform: translateY(-65%);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* Functional Heart Checkbox */
+.follow-checkbox input[type="checkbox"], .follow-checkbox .checked {
+    display: none;
+}
+
+.follow-checkbox input[type="checkbox"]:checked ~ .checked {
+    display: inline-block;
+}
+
+.follow-checkbox input[type="checkbox"]:checked ~ .unchecked {
+    display: none;
+}
+
+.fa-heart {
+    transform: translateY(20%);
+    height: 30px;
+    width: 30px;
+}
+
+.far.fa-heart {
+    color: rgb(138, 132, 132);
+}
+
+.fas.fa-heart {
+    color: rgb(185, 24, 24);
+}
+
+/* edit button */
+.edit-button {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transform: translateY(20%);
+}

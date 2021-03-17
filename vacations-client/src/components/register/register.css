@@ -1,0 +1,17 @@
+.register .form-input-group {
+	position: relative;
+	display: grid;
+	grid-template-columns: 95% 3%;
+}
+
+.register .error-icon>i {
+	display: block;
+	color: #c04141;
+	position: absolute;
+	transform: translateY(135%);
+	right: 1rem;
+}
+.register .error-icon>small {
+	color: #c04141;
+}
+
